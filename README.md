@@ -1,0 +1,1 @@
+![](./individual-work/html-1/nekopara-azuki.gif)

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+    </head>
+
+    <body>
+        <div class="box">
+            <div class="navbar">
+                <img src="./logo.png" id="logo">
+                
+                    <p>Domů</p>
+                    <p>O nás</p>
+                    <p>Kontakty</p>
+                
+                <img src="./search.png" id="search">
+            </div>
+            <div class="ipsum"> 
+                <h1>Lorem ipsum</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam neque. Quisque porta. Aliquam ornare wisi eu metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat. Etiam quis quam. Quisque tincidunt scelerisque libero. Phasellus et lorem id felis nonummy placerat. Etiam quis quam. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Etiam dictum tincidunt diam. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla pulvinar eleifend sem.</p>
+            </div>
+        </div>
+    </body>
+
+
+
+</html>
+
+<style>
+    * {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .box img {
+        max-height: 100px;
+    }
+
+    img#search{
+        max-height: 20px;
+    }
+
+    div.box {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div.navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        order: 1;
+        height: 100px;
+        width: 100vw;
+        align-items: center;
+        backdrop-filter: blur(25px);
+    }
+    .navbar p {
+        color: antiquewhite;
+    }
+
+    div.ipsum {
+        margin: 10% 20% 10% 20%;
+        order: 2;
+        align-items: center;
+        background-color: aliceblue;
+        box-shadow: 0px 0px 10px #ffffff;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .ipsum p {
+        margin: 20px, 25px, 25px, 25px;
+    }
+    .ipsum h1 {
+        margin-top: 25px 10px, 0px, 10px;
+        
+    }
+
+    body {
+        background-image: url(./Cosmic-Gradient-14.jpg);
+        background-size: cover;
+        margin: 0px;
+    }
+</style>
