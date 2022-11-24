@@ -11,8 +11,8 @@
 
             <div class="li"> 
                 <a href="index.html" id="current"><b>HOMEPAGE</b></a>
-                <a href="contact.html"><b>O NÁS</b></a>
-                <a href="about.html"><b>KONTAKT</b></a>               
+                <a href="about.html"><b>O NÁS</b></a>
+                <a href="contact.html"><b>KONTAKT</b></a>               
             </div>
 
             
@@ -31,22 +31,121 @@
 
         <div class="main">
             
-
+            
+                <h1>PROČ POUŽÍVAT NÁŠ NOTEBOOK</h1>
+                <p id="x">Notebook Lenovo IdeaPad 3 15ALC6 splní všechna vaše přání. Nabízí skvělý displej s jemným rozlišením, procesor s vysokým výkonem, rychlou RAM paměť a až 11 hodinovou výdrž baterie s podporou rychlého nabíjení.</p>
+            
             <div class="catalog">
-                <div class="prod"></div>
-                <div class="prod"></div>
-                <div class="prod"></div>
+                <div class="prod">
+                    <div class="img"></div>
+                    <h3>MAXIMÁLNÍ VÝKON</h3>
+                    <p>Notebook Lenovo IdeaPad 3 15ALC6  je vybaven procesorem AMD Ryzen 7 5700U. Rychlá DDR4 RAM s kapacitou 16 GB zajistí plynulý multitasking. </p>
+                </div>
+
+                <div class="prod">
+                    <div class="img"></div>
+                    <h3>VĚRNÉ BARVY</h3>
+                    <p>S dvojicí reproduktorů s technologií Dolby Atmos si můžete naplno vychutnat svou hudbu a filmy. Každý z nich má výkon 1,5W.</p>
+                </div>
+
+                <div class="prod">
+                    <div class="img"></div>
+                    <h3>DECHBEROUCÍ ZVUK</h3>
+                    <p>S dvojicí reproduktorů s technologií Dolby Atmos si můžete naplno vychutnat svou hudbu a filmy. Každý z nich má výkon 1,5W.</p>
+                </div>
+
+
+
+                
             </div>
+            
 
+            <div class="butt" style="align-self: center;">
+                <b>OBJEDNEJTE HNED</b>
+            </div>
         </div>
-        <div class="end">
-
+        <div class="end" style="flex-direction: column; background-color:#9F9F9F">
+            <p>Obchodní podmínky</p>
+            <p>ochrana osobních údajů</p>
         </div>
 
     </body>
 </html>
 
 <style>
+    p#x{
+        max-width: 30%;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .main p {
+
+        align-self: center;
+        max-width: 100%;
+        width: fit-content;
+    }
+    .main h1 {
+        margin-top: 200px;
+        margin-bottom: 0px;
+        align-self: center;
+        max-width: 50%;
+        width: fit-content;
+    }
+    .main h3 {
+        align-self: center;
+        max-width: 50%;
+        width: fit-content;
+    }
+    div.main {
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        
+    }
 
 
+    div.catalog {
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        
+    }
+    div.prod {
+        margin: 10px;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        max-width: 25%;
+    }
+
+    div.prod h3 {
+        
+        align-self: center;
+        max-width: fit-content;
+        width: fit-content;
+        margin: 2px;
+        margin-top: 20px;
+        max-height: fit-content;
+    }
+
+    .main div.butt {
+        margin: 50px;
+    }
+    div.img {
+        align-self: center;
+        background-color: #9F9F9F;
+        width: 30vh;
+        height: 30vh;
+    }
+
+    .end p {
+        margin: 0px;
+
+    }
+    .end {
+        margin-top: 50px;
+        align-items: center;
+        padding: 50px;
+    }
 </style>
