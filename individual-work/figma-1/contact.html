@@ -24,15 +24,14 @@
           <h1 style="margin-left: 200px;">KONTAKT</h1>
             <div class="form">
                 <div style="background-color:white" class="row">
-                    <div class="pole"></div>
-                    <div class="width"></div>
-                    <div class="pole"></div>
+                    <div class="pole"> <p>Jméno</p></div>
+                    <div style="justify-self:flex-end;" class="pole"> <p>Příjmení</p></div>
                 </div>
                 <div class="pole">
-                    <p></p>
+                    <p>E-mail</p>
                 </div>
                 <div class="pole">
-                    <p></p>
+                    <p>Telefon</p>
                 </div>
                 <div class="idk">
                     <p>Vaše zpráva</p>
@@ -59,9 +58,11 @@
     }
 
     .idk {
-
+        margin: 10px;
+        height: 35vh;
     }
     .pole {
+        margin: 10px;
         width: 45%;
         height: 50px;
     }
@@ -70,9 +71,12 @@
         margin: 0px 200px 50px 200px;
 
     }
+    
+    div.form p {
+        margin-left: 20px;
+    }
 
     div.form div{
-        margin: 2px;
         background-color: #9F9F9F;
     }
     .main {
